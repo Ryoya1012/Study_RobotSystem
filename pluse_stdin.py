@@ -3,13 +3,14 @@
 import sys
 sum = 0
 
-for line in sys.stdin:
-    
+def tonum(s):
     try:
-        sum += int(line)
-    #num = float(line)
+        return  int(s)
 
     except:
-        sum += float(line)
+        return  float(s)
+
+for line in sys.stdin:
+    sum += tonum(line)
 
 print(sum)
