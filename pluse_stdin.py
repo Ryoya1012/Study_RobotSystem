@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# SPDX-FileCopyrightText: 2026 Ryoya Sato
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 sum = 0
 
