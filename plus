@@ -13,7 +13,7 @@ def tonum(s):
     except:
         return  float(s)
 
-for line in sys.stdin:
-    sum += tonum(line)
+for lines in sys.stdin:
+    sum += tonum(lines)
 
 print(sum)
